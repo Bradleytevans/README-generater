@@ -1,0 +1,22 @@
+{
+  "name": "readme-generater",
+  "version": "1.0.0",
+  "description": "A README.md generator for Github repositories.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bradleytevans/README-generater.git"
+  },
+  "author": "Bradleytevans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bradleytevans/README-generater/issues"
+  },
+  "homepage": "https://github.com/Bradleytevans/README-generater#readme",
+  "dependencies": {
+    "inquire": "^0.4.8"
+  }
+}
