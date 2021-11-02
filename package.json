@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Bradleytevans/README-generater#readme",
   "dependencies": {
-    "inquire": "^0.4.8"
+    "inquire": "^0.4.8",
+    "inquirer": "^8.2.0"
   }
 }
