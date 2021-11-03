@@ -1,3 +1,5 @@
+[Video link that shows it in use](https://watch.screencastify.com/v/JRfG9hcX7qoobthEPbIU)
+
 # README Generator
 
 ![Badge for license](https://img.shields.io/badge/license-GNU_AGPLv3-blue)
