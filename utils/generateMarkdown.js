@@ -21,7 +21,7 @@ ${data.installation}
 ${data.usage}
 
 ## License
-This project is covered under the ${license} license.
+This project is covered under the ${data.license} license.
 
 ## Contributing
 ${data.contribution}

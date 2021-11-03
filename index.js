@@ -24,7 +24,7 @@ const questions = () => {
         },
         {
             type: 'input',
-            name: 'githubUSer',
+            name: 'email',
             message: 'Please enter your email address.',
             validate: nameInput => {
                 if (nameInput) {
