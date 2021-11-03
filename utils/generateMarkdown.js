@@ -24,7 +24,11 @@ ${data.contribution}
 ${data.license}
 
 ## Questions 
+If you have any questions, please reach out to me at the links below!
 
+GitHub: [@${data.githubUSer}](https://github.com/${data.githubUSer})
+  
+Email: [Send me an email!](mailto:${data.email})
 `;
 }
 module.exports = generateMarkdown;

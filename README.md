@@ -1,7 +1,7 @@
-# README Generator
+# a
 
 ## Description
-It is a javascript based README.md generator that uses Node.js and the Inquire package to create aesthetically pleasing and to the point README's.
+a
 
 ## Table of Contents
 * [Installation](#installation)
@@ -11,16 +11,20 @@ It is a javascript based README.md generator that uses Node.js and the Inquire p
 * [Questions](#questions)
 
 ## Installation
-install NPM, install inquire, node index
+
 
 ## Usage
-Type node index in the command line and fill out all the necassary questions relevant to your project.
+
 
 ## Contributing
-undefined
+
 
 ## License
 GNU AGPLv3
 
 ## Questions 
+If you have any questions, please reach out to me at the links below!
 
+GitHub: [@a](https://github.com/a)
+  
+Email: [Send me an email!](mailto:bradleyt.evans@gmail.com)
