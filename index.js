@@ -74,8 +74,8 @@ const questions = () => {
         message: 'Please provide any steps needed to install you project. (press enter to skip)',
     },
     {
-        type: 'checkbox',
-        name: 'licensing',
+        type: 'list',
+        name: 'license',
         message: 'Choose a license for your project (Required)',
         choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense'],
     }

@@ -1,5 +1,6 @@
 const generateMarkdown = data => {
-    return `# ${data.title}
-  `;
-  }
+return `# ${data.title}
+
+`;
+}
 module.exports = generateMarkdown;
