@@ -74,7 +74,7 @@ const questions = () => {
     {
         type: 'input',
         name: 'contribution',
-        message: 'Please provide any guidelines or information for contribution to the repository. (press enter to skip',
+        message: 'Please provide any guidelines or information for contribution to the repository. (press enter to skip)',
     },
     {
         type: 'input',
