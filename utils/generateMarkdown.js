@@ -1,14 +1,17 @@
 const generateMarkdown = data => {
 return `# ${data.title}
 
+![Badge for license](https://img.shields.io/npm/l/:${data.license})
+
 ## Description
 ${data.description}
 
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contributing](#contributing)
 * [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
 * [Questions](#questions)
 
 ## Installation
@@ -17,11 +20,14 @@ ${data.installation}
 ## Usage
 ${data.usage}
 
+## License
+${data.license}
+
 ## Contributing
 ${data.contribution}
 
-## License
-${data.license}
+## Tests
+${data.tests}
 
 ## Questions 
 If you have any questions, please reach out to me at the links below!

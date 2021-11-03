@@ -74,6 +74,11 @@ const questions = () => {
         message: 'Please provide any steps needed to install you project. (press enter to skip)',
     },
     {
+        type: 'input',
+        name: 'tests',
+        message: 'Please provide any instructions for testing. (press enter to skip)',
+    },
+    {
         type: 'list',
         name: 'license',
         message: 'Choose a license for your project (Required)',
