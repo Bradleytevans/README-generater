@@ -1,7 +1,7 @@
 const generateMarkdown = data => {
 return `# ${data.title}
 
-![Badge for license](https://img.shields.io/npm/l/:${data.license})
+![Badge for license](https://img.shields.io/badge/license-${data.license}-blue)
 
 ## Description
 ${data.description}
@@ -21,7 +21,7 @@ ${data.installation}
 ${data.usage}
 
 ## License
-${data.license}
+This project is covered under the ${license} license.
 
 ## Contributing
 ${data.contribution}

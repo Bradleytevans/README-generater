@@ -24,8 +24,16 @@ const questions = () => {
         },
         {
             type: 'input',
-            name: 'email',
-            message: 'Please enter your email address. (press enter to skip)'
+            name: 'githubUSer',
+            message: 'Please enter your email address.',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Please enter your email address to continue.');
+                    return false; 
+                }
+            } 
         },
     {
         type: 'input',
@@ -66,7 +74,7 @@ const questions = () => {
     {
         type: 'input',
         name: 'contribution',
-        message: 'Please provide any guidelines or information for contribution to the repository. (press enter to continue)',
+        message: 'Please provide any guidelines or information for contribution to the repository. (press enter to skip',
     },
     {
         type: 'input',
@@ -82,7 +90,7 @@ const questions = () => {
         type: 'list',
         name: 'license',
         message: 'Choose a license for your project (Required)',
-        choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense'],
+        choices: ['GNU_AGPLv3', 'GNU_GPLv3', 'GNU_LGPLv3', 'Mozilla_Public_License_2.0', 'Apache_License_2.0', 'MIT_License', 'Boost_Software_License_1.0', 'The_Unlicense'],
     }
 ]);
 };

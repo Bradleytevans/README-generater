@@ -1,9 +1,9 @@
-# README Generator
+# a
 
-![Badge for license](https://img.shields.io/apm/l/AGPLv3)
+![Badge for license](https://img.shields.io/badge/license-GNU_AGPLv3-blue)
 
 ## Description
-Generates README.md's
+a
 
 ## Table of Contents
 * [Installation](#installation)
@@ -14,13 +14,13 @@ Generates README.md's
 * [Questions](#questions)
 
 ## Installation
-yes
+a
 
 ## Usage
-s
+a
 
 ## License
-GNU AGPLv3
+This project is covered under the GNU_AGPLv3 license.
 
 ## Contributing
 a
@@ -31,6 +31,6 @@ a
 ## Questions 
 If you have any questions, please reach out to me at the links below!
 
-GitHub: [@bradleytevans](https://github.com/bradleytevans)
+GitHub: [@a](https://github.com/a)
   
-Email: [Send me an email!](mailto:bradleyt.evans@gmail.com)
+Email: [Send me an email!](mailto:a)
